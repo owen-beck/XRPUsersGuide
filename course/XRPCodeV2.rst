@@ -73,6 +73,9 @@ Selecting this button will connect your XRP to XRPCode V2 via Bluetooth. Follow 
 Once you have connected to your XRP via Bluetooth, XRPCode V2 will remember your XRP and you can automatically 
 connect to it again via Bluetooth in the future.
 
+.. image:: images/XRPCodeV2_Connecting_3.png
+    :width: 600
+
 If XRPCode V2 cannot find your serial connection, or there are other connection issues please refer to
 the troubleshooting section at the bottom of this page.
 
