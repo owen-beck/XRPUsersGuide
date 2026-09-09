@@ -39,7 +39,7 @@ In the middle (2) is the editor. This is where you will be working on your progr
 At the bottom (3) is the shell window. This is where print statement output will be displayed. 
 You can also use the shell as a command line to write Python code as an interactive way to quickly test ideas.
 
-Connecting your XRP to XRPCode V2
+Connecting your XRP to your Computer
 ------------------------------
 The XRP robot has a USB-C connector or a USB-A connector (for the beta version of the XRP) on the controller board that is connected to your computer's
 USB port with a cable.
@@ -48,7 +48,7 @@ USB port with a cable.
     Many USB cables are for power only and do not transmit data. You will need a USB cable that can
     transfer data and power. 
 
-Connecting to the XRP
+Connecting XRPCode V2 to the XRP
 ---------------------------
 To establish the connection between the XRP robot and the computer, press the 'CONNECT XRP' button. Often the
 connection will happen automatically when the XRP is plugged in and XRPCode V2 is started.
@@ -62,9 +62,16 @@ Select your desired connection method.
 .. image:: images/XRPCodeV2_Connecting_2.png
     :width: 400
 
+Select your XRP from the options available if prompted.
+
 When the connection is made, the 'CONNECT XRP' button will change to a green 'RUN' button indicating that
 the connection has been made and a program can be run. The Filesystem
 window will show the files on the connected XRP.
+
+When connected to the XRP via USB, a 'Switch to Bluetooth' button will appear at the top of your screen.
+Selecting this button will connect your XRP to XRPCode V2 via Bluetooth. Follow the instructions on the screen.
+Once you have connected to your XRP via Bluetooth, XRPCode V2 will remember your XRP and you can automatically 
+connect to it again via Bluetooth in the future.
 
 If XRPCode V2 cannot find your serial connection, or there are other connection issues please refer to
 the troubleshooting section at the bottom of this page.
