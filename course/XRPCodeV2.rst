@@ -16,12 +16,13 @@ XRPCode V2 has many new features that were not included in XRPCode V1.
 
     * New web architecture
     * Light and dark theme support
-    * Language support (English and Spanish)
+    * Language support (English, Spanish, and more on the way)
     * Dashboard for viewing sensors on the XRP
     * New firmware loader
     * Driver support for QWIIC connected devices
     * Monaco Editor for Python (the same editor as VS Code)
-    * Google Drive support for backing up and restoring files
+    * Google Drive support for storing and working files
+    * Backup and restore functions (to Google Drive)
 
 Exploring the XRPCode V2 user interface
 ------------------------------------
@@ -41,7 +42,7 @@ You can also use the shell as a command line to write Python code as an interact
 
 Connecting your XRP to your Computer
 ------------------------------
-The XRP robot has a USB-C connector or a USB-A connector (for the beta version of the XRP) on the controller board that is connected to your computer's
+The XRP robot has a USB-C connector or a micro-USB connector (for the beta version of the XRP) on the controller board that is connected to your computer's
 USB port with a cable.
 
 .. warning:: 
@@ -50,8 +51,9 @@ USB port with a cable.
 
 Connecting XRPCode V2 to the XRP
 ---------------------------
-To establish the connection between the XRP robot and the computer, press the 'CONNECT XRP' button. Often the
-connection will happen automatically when the XRP is plugged in and XRPCode V2 is started.
+To establish the connection between the XRP robot and the computer, press the 'CONNECT XRP' button. 
+
+Once a connection has been made, further connections will happen automatically when the XRP is plugged in and XRPCode V2 is started.
 
 .. image:: images/XRPCodeV2_Connecting_1.png
     :width: 600
@@ -83,7 +85,7 @@ Connecting to Google Drive
 --------------------------
 At the top of the Filesystem window is a 'Google Sign In' button. Clicking this button will open a pop out window
 prompting you to select a Google account to sign in. By signing in to Google, files can be saved to Google Drive
-for access even when the XRP is not connected to XRPCode V2. 
+for access even when the XRP is not connected to XRPCode V2.
 
 .. warning:: 
     When signed in to Google, only files saved to Google Drive will be accessible in the Filesystem window.
@@ -194,7 +196,8 @@ The 3-dot menu in the top right of XRPCode V2 contains more advanced features.
     :width: 300
 
 | **Dashboard**
-| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode V2 is connected to the XRP.
+| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode V2 is connected to the XRP and the XRP 
+| is running a program that starts the Dashboard. See the Dashboard blocks.
 
 | **Drivers**
 | Drivers for devices connected to the XRP through the QWIIC connector can be easily installed through the 'Drivers' menu.
@@ -224,4 +227,4 @@ Troubleshooting XRPCode V2 connection issues
 
 **XRP was previously used for WPILib or some other purpose**
 
-    * In this case, XRPCode V2 will try to load the current MicroPython firmware onto it; just follow the instructions.
+    * Use the Fimware Loader in the Advanced menu. Select the correct board type and Micropython. Then just follow the instructions.
