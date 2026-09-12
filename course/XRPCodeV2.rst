@@ -106,6 +106,24 @@ copy a file from the XRP to the Google Drive, there is a 'Copy Files' menu optio
 Choose the files under 'XRP Robot Files' you want to transfer on the left. Choose the destination folder under 
 'Google Drive Files' on the right. Then click 'Copy' to transfer your files from the XRP to Google Drive.
 
+Python Editor
+--------------
+The XRPCode V2 Python editor can help you program with IntelliSense with code completion and error highlighting.
+
+.. image:: images/XRPCodeV2_IntelliSense.png
+    :width: 600
+
+IntelliSense can give predictive suggestions when you are coding based on Python and the XRPLib library, as well as 
+provide parameter info when using a function.
+
+.. image:: images/XRPCodeV2_IntelliSense_Parameter_Info.png
+    :width: 600
+
+Errors in your code will also be highlighted with a red line. Hover over the error to see more information on it.
+
+.. image:: images/XRPCodeV2_IntelliSense_Error.png
+    :width: 600
+
 Using XRPCode V2
 -------------
 Now that the robot is connected, this is a good time to write a short program to learn about the editor.
