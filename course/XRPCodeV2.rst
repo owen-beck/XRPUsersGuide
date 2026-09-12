@@ -16,7 +16,7 @@ XRPCode V2 has many new features that were not included in XRPCode V1.
 
     * New web architecture
     * Light and dark theme support
-    * Language support (English, Spanish, and more on the way)
+    * Language support (English and Spanish, with more on the way)
     * Dashboard for viewing sensors on the XRP
     * New firmware loader
     * Driver support for QWIIC connected devices
