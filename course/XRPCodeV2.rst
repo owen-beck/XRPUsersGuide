@@ -97,8 +97,14 @@ At the top of the Filesystem window is a 'Google Sign In' button. Clicking this 
 prompting you to select a Google account to sign in. By signing in to Google, files can be saved to Google Drive
 for access even when the XRP is not connected to XRPCode V2.
 
-.. warning:: 
-    When signed in to Google, only files saved to Google Drive will be accessible in the Filesystem window.
+While logged into Google Drive, the file system will only show the files on the Google Drive. If you want to
+copy a file from the XRP to the Google Drive, there is a 'Copy Files' menu option in the 'File' menu.
+
+.. image:: images/XRPCodeV2_Copy_Files.png
+    :width: 600
+
+Choose the files under 'XRP Robot Files' you want to transfer on the left. Choose the destination folder under 
+'Google Drive Files' on the right. Then click 'Copy' to transfer your files from the XRP to Google Drive.
 
 Using XRPCode V2
 -------------
