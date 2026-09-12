@@ -72,11 +72,21 @@ window will show the files on the connected XRP.
 
 When connected to the XRP via USB, a 'Switch to Bluetooth' button will appear at the top of your screen.
 Selecting this button will connect your XRP to XRPCode V2 via Bluetooth. Follow the instructions on the screen.
-Once you have connected to your XRP via Bluetooth, XRPCode V2 will remember your XRP and you can automatically 
-connect to it again via Bluetooth in the future.
 
 .. image:: images/XRPCodeV2_Connecting_3.png
     :width: 600
+
+Once you have connected to your XRP via Bluetooth, XRPCode V2 will remember your XRP and you can connect directly to
+it using the connect button in the future.
+
+.. image:: images/XRPCodeV2_Connecting_Specific_Robot.png
+    :width: 400
+
+If you wish to connect to a different XRP, click the drop down button and select your desired connection type, or 
+'Clear saved XRP ID' to forget your previous XRP.
+
+.. image:: images/XRPCodeV2_Connecting_Different_Robot.png
+    :width: 400
 
 If XRPCode V2 cannot find your serial connection, or there are other connection issues please refer to
 the troubleshooting section at the bottom of this page.
