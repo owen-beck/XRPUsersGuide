@@ -258,8 +258,7 @@ The 3-dot menu in the top right of XRPCode V2 contains more advanced features.
     :width: 300
 
 | **Dashboard**
-| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode V2 is connected to the XRP and the XRP 
-| is running a program that starts the Dashboard. See the Dashboard blocks.
+| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode V2 is connected to the XRP and the XRP is running a program that starts the Dashboard. See the Dashboard blocks.
 
 | **Drivers**
 | Drivers for devices connected to the XRP through the QWIIC connector can be easily installed through the 'Drivers' menu.
