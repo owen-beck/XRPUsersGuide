@@ -198,6 +198,34 @@ so make sure you really want to delete your file before doing so.
 .. image:: images/XRPCodeV2_Filesystem.png
     :width: 300
 
+The Help Menu
+-----------------
+The help menu, found at the top of the screen, contains links to many helpful resources.
+
+.. image:: images/XRPCodeV2_Help_Menu.png
+    :width: 300
+
+| **User Guide**
+| The User Guide is this website, which contains guides on building, programming, and using your XRP.
+
+| **API Reference**
+| The API Reference documents the XRPLib library's available functions. It also contains example programs.
+
+| **Curriculum**
+| A curriculum for teaching robotics with the XRP.
+
+| **User Help Forum**
+| This button links to the XRP Discourse forum, where you can discuss your XRP and ask questions.
+
+| **Reporting Bugs**
+| This button links to the support section of the XRP Discourse forum, where you can report bugs and other issues you encounter with your XRP.
+
+| **Change Log**
+| The change log documents recent changes to XRPWeb.
+
+| **Privacy Policy**
+| The XRPWeb privacy policy.
+
 Advanced Features
 --------------------
 The 3-dot menu in the top right of XRPCode V2 contains more advanced features. 
