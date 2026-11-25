@@ -5,7 +5,7 @@ XRPCode can be used to create either Python or Blockly language programs that ru
 control board. Blockly programs are first translated to Python and then run. In fact, you can view or
 even translate the Blockly program into a Python program.
 
-Run XRPCode by navigating to `XRPCode web site <https://xrpcode.wpi.edu>`_. 
+Run XRPCode by navigating to `XRPCode web site <https://xrpcode.wpi.edu/v1>`_. 
 
 If this is your first time accessing XRPCode or if there has been an update, a changelog will be displayed.
 Read through the changelog to learn what is new in the current release of XRPLib or the editor.
