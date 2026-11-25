@@ -76,31 +76,14 @@ XRPCode
 -------
 
 
-The recommended programming tool for the XRP is `XRPCode <https://xrpcode.wpi.edu>`_. It is a web-based single tool
-designed specifically for the XRP to support programming in either Python or Blockly.
-It also can check and update firmware and library versions on the robot as new 
-software releases become available. XRPCode is a web-based programming system that 
-operates inside the Google Chrome or Microsoft Edge browsers, so users will always be running the most 
-recent version of the tool. 
-
-.. image:: images/Picture1.png
-    :width: 300
-
-.. image:: images/XRPCodeImage.png
-    :width: 300
-
-XRPCode V2
--------
-
-
-`XRPCode V2 <https://xrpcode.wpi.edu/staging>`_ is the new recommended programming tool for the XRP. It is a web-based
+`XRPCode <https://xrpcode.wpi.edu/staging>`_ is the recommended programming tool for the XRP. It is a web-based
 tool designed specifically for the XRP and supports programming in either Python or Blockly. The Python editor includes
-full syntax checking and prompts for XRPLib API functions and parameters. Through XRPCode V2, files can be saved to the 
+full syntax checking and prompts for XRPLib API functions and parameters. Through XRPCode, files can be saved to the 
 XRP or, for access to files while disconnected from the XRP, to Google Drive. 
 
-XRPCode V2 also has advanced features accessible through the right-hand 3-dot menu. It has a dashboard to display direct
+XRPCode also has advanced features accessible through the right-hand 3-dot menu. It has a dashboard to display direct
 sensor measurements from the XRP, a menu for updating XRP firmware, and a menu for installing drivers to devices connected 
-to the XRP's QWIIC connector. XRPCode V2 operates inside the Google Chrome or Microsoft Edge browsers, so users will always 
+to the XRP's QWIIC connector. XRPCode operates inside the Google Chrome or Microsoft Edge browsers, so users will always 
 be running the most recent version of the tool.
 
 .. image:: images/XRPCodeV2_Blockly.png
