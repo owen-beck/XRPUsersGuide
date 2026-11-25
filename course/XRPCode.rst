@@ -1,3 +1,8 @@
+.. admonition:: New XRPCode version!
+
+    This is the user guide for XRPCode V1. The user guide for XRPCode V2, the current and recommended XRPCode 
+    version, can be found `here <https://xrpusersguide.readthedocs.io/en/latest/course/XRPCodeV2.html>`_.
+
 XRPCode Integrated Development Environment
 ==========================================
 XRPCode is a web-based development tool that is run in either the Google Chrome or Microsoft Edge browsers.
