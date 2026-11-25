@@ -1,13 +1,13 @@
-XRPCode V2 Integrated Development Environment
+XRPCode Integrated Development Environment
 ==========================================
-XRPCode V2 is a web-based development tool that is run in either the Google Chrome or Microsoft Edge browsers.
-XRPCode V2 can be used to create either Python or Blockly language programs that run natively on the XRP
+XRPCode is a web-based development tool that is run in either the Google Chrome or Microsoft Edge browsers.
+XRPCode can be used to create either Python or Blockly language programs that run natively on the XRP
 control board. Blockly programs are first translated to Python and then run. In fact, you can view or
 even translate the Blockly program into a Python program.
 
-Run XRPCode V2 by navigating to `XRPCode V2 web site <https://XRPCode.wpi.edu>`_. 
+Run XRPCode by navigating to `XRPCode web site <https://XRPCode.wpi.edu>`_. 
 
-If this is your first time accessing XRPCode V2 or if there has been an update, a changelog will be displayed.
+If this is your first time accessing XRPCode or if there has been an update, a changelog will be displayed.
 Read through the changelog to learn what is new in the current release of XRPLib or the editor.
 
 New in XRPCode V2
@@ -24,13 +24,13 @@ XRPCode V2 has many new features that were not included in XRPCode V1.
     * Google Drive support for storing and working files
     * Backup and restore functions (to Google Drive)
 
-Exploring the XRPCode V2 user interface
+Exploring the XRPCode user interface
 ------------------------------------
 
 .. image:: images/XRPCodeV2_Windows.png
     :width: 600
 
-There are 3 major window areas for XRPCode V2.
+There are 3 major window areas for XRPCode.
 
 On the left (1) is the Filesystem window. This will show the files on your XRP whenever an XRP is connected or
 in your XRPCode Google Drive folder if you have connected to Google Drive. 
@@ -49,11 +49,11 @@ USB port with a cable.
     Many USB cables are for power only and do not transmit data. You will need a USB cable that can
     transfer data and power. 
 
-Connecting XRPCode V2 to the XRP
+Connecting XRPCode to the XRP
 ---------------------------
 To establish the connection between the XRP robot and the computer, press the 'CONNECT XRP' button. 
 
-Once a connection has been made, further connections will happen automatically when the XRP is plugged in and XRPCode V2 is started.
+Once a connection has been made, further connections will happen automatically when the XRP is plugged in and XRPCode is started.
 
 .. image:: images/XRPCodeV2_Connecting_1.png
     :width: 600
@@ -71,12 +71,12 @@ the connection has been made and a program can be run. The Filesystem
 window will show the files on the connected XRP.
 
 When connected to the XRP via USB, a 'Switch to Bluetooth' button will appear at the top of your screen.
-Selecting this button will connect your XRP to XRPCode V2 via Bluetooth. Follow the instructions on the screen.
+Selecting this button will connect your XRP to XRPCode via Bluetooth. Follow the instructions on the screen.
 
 .. image:: images/XRPCodeV2_Connecting_3.png
     :width: 600
 
-Once you have connected to your XRP via Bluetooth, XRPCode V2 will remember your XRP and you can connect directly to
+Once you have connected to your XRP via Bluetooth, XRPCode will remember your XRP and you can connect directly to
 it using the connect button in the future.
 
 .. image:: images/XRPCodeV2_Connecting_Specific_Robot.png
@@ -88,14 +88,14 @@ If you wish to connect to a different XRP, click the drop down button and select
 .. image:: images/XRPCodeV2_Connecting_Different_Robot.png
     :width: 400
 
-If XRPCode V2 cannot find your serial connection, or there are other connection issues please refer to
+If XRPCode cannot find your serial connection, or there are other connection issues please refer to
 the troubleshooting section at the bottom of this page.
 
 Connecting to Google Drive
 --------------------------
 At the top of the Filesystem window is a 'Google Sign In' button. Clicking this button will open a pop out window
 prompting you to select a Google account to sign in. By signing in to Google, files can be saved to Google Drive
-for access even when the XRP is not connected to XRPCode V2.
+for access even when the XRP is not connected to XRPCode.
 
 While logged into Google Drive, the file system will only show the files on the Google Drive. If you want to
 copy a file from the XRP to the Google Drive, there is a 'Copy Files' menu option in the 'File' menu.
@@ -108,7 +108,7 @@ Choose the files under 'XRP Robot Files' you want to transfer on the left. Choos
 
 Python Editor
 --------------
-The XRPCode V2 Python editor can help you program with IntelliSense with code completion and error highlighting.
+The XRPCode Python editor can help you program with IntelliSense with code completion and error highlighting.
 
 .. image:: images/XRPCodeV2_IntelliSense.png
     :width: 600
@@ -124,7 +124,7 @@ Errors in your code will also be highlighted with a red line. Hover over the err
 .. image:: images/XRPCodeV2_IntelliSense_Error.png
     :width: 600
 
-Using XRPCode V2
+Using XRPCode
 -------------
 Now that the robot is connected, this is a good time to write a short program to learn about the editor.
 
@@ -141,7 +141,7 @@ Notice that they are grouped by function. We recommend you click through
 each section to get a sense of what blocks are in each group.
 
 In this example, we'll create a program that will turn a controller board LED on and print a message in
-the XRPCode V2 shell window at the bottom of the screen.
+the XRPCode shell window at the bottom of the screen.
 
 
 .. |ico2| image:: images/led_on.png
@@ -170,7 +170,7 @@ telling you to turn on the power switch. If this happens, flip the power switch 
 
 You will notice a few things:
     * The green LED next to where the USB cable connects to on the XRP will go on for a little while and then turn back off.
-    * The shell window at the bottom of XRPCode V2 will print out your message from the print statement.
+    * The shell window at the bottom of XRPCode will print out your message from the print statement.
 
 You may have also noticed that the green 'RUN' button changed to a red 'STOP' button while your program was running and 
 then turn back after.
@@ -188,7 +188,7 @@ Click on 'View' and then on Convert to 'Python'.
 .. image:: images/XRPCodeV2_Convert_To_Python.png
     :width: 600
 
-XRPCode V2 will first give you a warning to make sure you want to convert the program as this cannot be undone. Click 
+XRPCode will first give you a warning to make sure you want to convert the program as this cannot be undone. Click 
 'OK'. It will do the operation and you should notice two things have happened:
 
 #. There is a new 'trash' directory on your XRP.
@@ -208,7 +208,7 @@ the 'RUN' button it will save your program and run it again. The message in the 
 You can close a file by clicking on the X next to the file name at the top of the editor. If you want to open the 
 program again you can double click on the file name in the Filesystem window.
 
-Congratulations, you have now learned how to create and run programs in XRPCode V2! 
+Congratulations, you have now learned how to create and run programs in XRPCode! 
 
 Using the Filesystem
 ----------------------
@@ -252,19 +252,19 @@ The help menu, found at the top of the screen, contains links to many helpful re
 
 Advanced Features
 --------------------
-The 3-dot menu in the top right of XRPCode V2 contains more advanced features. 
+The 3-dot menu in the top right of XRPCode contains more advanced features. 
 
 .. image:: images/XRPCodeV2_Advanced_Features.png
     :width: 300
 
 | **Dashboard**
-| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode V2 is connected to the XRP and the XRP is running a program that starts the Dashboard. See the Dashboard blocks.
+| The 'Dashboard' menu can be used to view sensor readings from the XRP when XRPCode is connected to the XRP and the XRP is running a program that starts the Dashboard. See the Dashboard blocks.
 
 | **Drivers**
 | Drivers for devices connected to the XRP through the QWIIC connector can be easily installed through the 'Drivers' menu.
 
 | **Firmware Loader**
-| XRPCode V2 contains 'Firmware Loader' menu for loading firmware onto the XRP.
+| XRPCode contains 'Firmware Loader' menu for loading firmware onto the XRP.
 
 | **Backup and Restore**
 | Files stored on the XRP can be backed up to Google Drive, and restored to the XRP from Google Drive.
@@ -272,7 +272,7 @@ The 3-dot menu in the top right of XRPCode V2 contains more advanced features.
 | **Settings**
 | The settings menu has options for language selection and a light or dark theme. Currently the only supported languages are English and Spanish.
 
-Troubleshooting XRPCode V2 connection issues
+Troubleshooting XRPCode connection issues
 -----------------------------------------
 **Cannot see the serial port when connecting**
 

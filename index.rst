@@ -27,14 +27,14 @@ browser does not redirect automatically, follow that link.
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Using XRPCode
+   :caption: Using XRPCode V1
 
    course/XRPCode.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Using XRPCode V2
+   :caption: Using XRPCode
 
    course/XRPCodeV2.rst
   
